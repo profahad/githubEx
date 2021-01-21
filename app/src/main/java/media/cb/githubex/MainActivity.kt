@@ -16,7 +16,11 @@ class MainActivity : AppCompatActivity() {
         Toast.makeText(this, "Here we go", Toast.LENGTH_SHORT).show()
 
         // Edit By Numan
-        Toast.makeText(this, "I'm here Numan", Toast.LENGTH_SHORT).show()
+        displayToast("I'm Numan")
 
+    }
+
+    fun displayToast(message:String) {
+        Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
     }
 }
