@@ -14,5 +14,9 @@ class MainActivity : AppCompatActivity() {
         super.onStart()
         // Edit By Fahad
         Toast.makeText(this, "Here we go", Toast.LENGTH_SHORT).show()
+
+        // Edit By Numan
+        Toast.makeText(this, "I'm here Numan", Toast.LENGTH_SHORT).show()
+
     }
 }
